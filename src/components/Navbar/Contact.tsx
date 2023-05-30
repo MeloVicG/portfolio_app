@@ -1,4 +1,3 @@
-import React from 'react'
 import linkedinlogo from '../../images/linkedinlogo.png'
 import '../../styles/Contact.scss'
 

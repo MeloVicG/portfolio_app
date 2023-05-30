@@ -1,7 +1,5 @@
-import React from 'react'
 import '../../styles/Navbar.scss'
 import { Link } from 'react-router-dom'
-import cubepic from '../../images/cube.png'
 
 const Navbar = () => {
     return (

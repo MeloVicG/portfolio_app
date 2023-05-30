@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../styles/Resume.scss'
 import github from '../../images/github.png'
 import linkedinlogo from '../../images/linkedinlogo.png'

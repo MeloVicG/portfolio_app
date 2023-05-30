@@ -4,7 +4,6 @@ import spockhands from '../../images/spockhands.png'
 import alaskaice from '../../images/alaskaice.jpg'
 import halloween_knights from '../../images/halloween_knights.jpg'
 import the_boys from '../../images/the_boys.jpg'
-import volleyball from '../../images/volleyball.png'
 import steampose from '../../images/steampose.jpg'
 
 import Carousel from 'react-bootstrap/Carousel';
