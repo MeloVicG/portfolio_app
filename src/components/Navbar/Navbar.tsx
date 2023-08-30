@@ -5,7 +5,6 @@ const Navbar = () => {
     return (
         <div className='nav-container'>
             <div className="mainbar">
-
                 <ul>
                     <ol><Link to='' className='link'>Home</Link></ol>
                     {/* <ol><Link to='about' className='link'>About</Link></ol> */}

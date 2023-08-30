@@ -3,11 +3,26 @@ import '../../styles/Projects.scss'
 import starwars from '../../images/starwars.png'
 import lae from '../../images/lae.png'
 import shooterprofile from '../../images/shooterprofile.png'
+import GBEI from '../../images/GDS.png'
 import github from '../../images/github.png'
 
 const Projects = () => {
     return (
-        <div className='projects-container'>
+        <div className='projects-container' style={{padding:"3em"}}>
+
+            <h3>GBEI Development Solutions</h3>
+            <div className="projects-box">
+                <img src={GBEI} alt=""/>
+                <ul>
+                <p>Fullstack application to Test and challenge my understanding in Java, Postgres and React. </p>
+                <p>Users will be able to fund their realestate project while maintaining their asset portfolios.</p>
+                    <li>Created JWT authentication with Java and postgres with password hashing</li>
+                    <br />
+                    <li>work in progress...</li>
+                </ul>
+            </div>
+            <br />
+            <br />
 
             <h3>FireArms Profile</h3>
             <div className="projects-box">
@@ -15,7 +30,7 @@ const Projects = () => {
                     <p>App designed to test most advanced python techniques w/ multiple different libraries and learning VueJS</p>
                     <p>Users can build their own basic profile in what firearms they use with descriptions </p>
                     <li>Built to utilize advance python techniques with Flask, WSGI, Marshmallow, PostgreSQL, and APIs </li>
-                    <li>·	Using yarn, Pug, and VueJS Lifecycle to create a front-end to navigate through full stack application.</li>
+                    <li>Using yarn, Pug, and VueJS Lifecycle to create a front-end to navigate through full stack application.</li>
                 </ul>
                 <img src={shooterprofile} alt=""/>
             </div>
