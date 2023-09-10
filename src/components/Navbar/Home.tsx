@@ -1,12 +1,7 @@
 import '../../styles/Home.scss'
 import citypic from '../../images/city_profile_pic.png'
 import spockhands from '../../images/spockhands.png'
-import alaskaice from '../../images/alaskaice.jpg'
-import halloween_knights from '../../images/halloween_knights.jpg'
-import the_boys from '../../images/the_boys.jpg'
-import steampose from '../../images/steampose.jpg'
-
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css'; //
 
 
