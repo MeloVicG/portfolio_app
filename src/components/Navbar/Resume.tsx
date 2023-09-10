@@ -11,7 +11,7 @@ const Resume = () => {
                 <div className="summary-box">
                     <p style={{padding:"2em"}}> 
                         <h3 style={{ fontFamily: 'Permanent Marker', marginRight: '1em', marginLeft: '1em' }}>Summary</h3>
-                        Navy Veteran with 2 years of software engineer experience, proficient in programming languages such as Java, Python, and JavaScript. Strong problem-solving skills, communication, and ability to collaborate with others has aided in successful completion of an intensive 14-week coding bootcamp. I have enjoyed the challenges, leadership, and critical thinking involved adapting with a team to accomplish projects. Highly motivated and eager to contribute my skills to a dynamic software development team.
+                        Navy Veteran with 3 years of software engineer experience, proficient in programming languages such as Java, Python, and JavaScript. Strong problem-solving skills, communication, and ability to collaborate with others has aided in successful completion of an intensive 14-week coding bootcamp. I have enjoyed the challenges, leadership, and critical thinking involved adapting with a team to accomplish projects. Highly motivated and eager to contribute my skills to a dynamic software development team.
                     </p>
                 </div>
 

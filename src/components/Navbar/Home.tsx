@@ -72,7 +72,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="box-three">
+            {/* <div className="box-three">
                 <div className="img-background">
                     <Carousel fade>
                         <Carousel.Item interval={2000}>
@@ -82,14 +82,11 @@ const Home = () => {
                             <img src={halloween_knights} alt="" />
                         </Carousel.Item>
                         <Carousel.Item interval={2000}>
-                            <img src={the_boys} alt="" />
-                        </Carousel.Item>
-                        <Carousel.Item interval={2000}>
                             <img src={steampose} alt="" />
                         </Carousel.Item>
                     </Carousel>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )

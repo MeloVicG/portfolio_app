@@ -23,22 +23,10 @@ const Projects = () => {
             </div>
             <br />
             <br />
+            <br />
 
-            <h3>FireArms Profile</h3>
-            <div className="projects-box">
-                <ul>
-                    <p>App designed to test most advanced python techniques w/ multiple different libraries and learning VueJS</p>
-                    <p>Users can build their own basic profile in what firearms they use with descriptions </p>
-                    <li>Built to utilize advance python techniques with Flask, WSGI, Marshmallow, PostgreSQL, and APIs </li>
-                    <li>Using yarn, Pug, and VueJS Lifecycle to create a front-end to navigate through full stack application.</li>
-                </ul>
-                <img src={shooterprofile} alt=""/>
-            </div>
-            <br />
-            <br />
             <h3>Latinos Auto Electric</h3>
             <div className="projects-box">
-                <img src={lae} alt=""/>
                 <ul>
                     <p>Full stack application to try adding a new techinque using MySql for M in MERN stack</p>
                     <p>Owner can easily communicate, set appointments, and inform users about company. </p>
@@ -46,9 +34,26 @@ const Projects = () => {
                     <li>Built end-to-end using Node.JS and React framework including leading collaborative discovery meetings with client, wireframing user journey, and creating a prototype that aligned with requirements and business needs.</li>
                     <li>Developed a robust scalable SQL database utilizing Sequelize that saved user data and enabled users to schedule appointments thereby streamlining administrative processes.</li>
                 </ul>
+                <img src={lae} alt=""/>
             </div>
             <br />
             <br />
+            <br />
+
+            <h3>FireArms Profile</h3>
+            <div className="projects-box">
+                <img src={shooterprofile} alt=""/>
+                <ul>
+                    <p>App designed to test most advanced python techniques w/ multiple different libraries and learning VueJS</p>
+                    <p>Users can build their own basic profile in what firearms they use with descriptions </p>
+                    <li>Built to utilize advance python techniques with Flask, WSGI, Marshmallow, PostgreSQL, and APIs </li>
+                    <li>Using yarn, Pug, and VueJS Lifecycle to create a front-end to navigate through full stack application.</li>
+                </ul>
+            </div>
+            <br />
+            <br />
+            <br />
+            
             <h3>StarWars Profile</h3>
             <div className="projects-box">
                 <ul>
@@ -62,6 +67,8 @@ const Projects = () => {
             </div>
             <br />
             <br />
+            <br />
+
             <h4>other projects are not designed for eye candy, more for functionality 😊</h4>
             <ul style={{alignContent:"center", listStyleType: "none"}}>
                 <li>Book Authors - TypeScript/React, Java/SpringBoot</li>

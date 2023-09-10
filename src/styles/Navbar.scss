@@ -2,14 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
-
 .link{
     text-decoration: none;
 }
 
 .mainbar{
-    // position:fixed;
-    background: $colorOne;
+    // position: relative;
+    // background: $colorOne;
+    background-color: black;
+    border-top: 1px solid $colorOne;
+    border-bottom: 1px solid $colorOne;
     padding: .009%;
     box-shadow: 0px 0px 5px;
     
@@ -20,7 +22,6 @@
         justify-content: center;
         margin-right: 7%;
         
-        
         .cubepic{
             object-fit: cover;
             // max-width: 100%;
@@ -30,25 +31,18 @@
             position: fixed;
             animation: spin 5s infinite linear;
         }
-        @keyframes spin {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
+
 
         ol{
-            font-size: 2rem;
+            position:relative;
+            font-size: 2em;
 
             font-weight: 500;
             text-shadow: 0px 0px 15px   ;
             font-family: 'Permanent Marker', cursive;
 
             &:hover{
-                font-weight: bolder;
-                color: black;
+                transform: scale(1.2);
             }
         }
     }

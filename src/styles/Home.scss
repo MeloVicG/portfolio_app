@@ -8,7 +8,6 @@
 
 
 .box-one {
-    
     ul{
         list-style-type: none;
         font-family: 'Permanent Marker', cursive;
@@ -24,12 +23,13 @@
     
     .img-background{
         background-color: $colorOne;
-        margin: 0% 5% 0% 5%;
+        margin: 0% 4% 0% 4%;
         box-shadow: 0px 0px 10px 2px black;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0% 4% 0% 4%;
+        padding: 0% 4% ;
+        border: 2px dotted red;
         img {
             // border: 2px dotted red;
             box-shadow: 0px 0px 10px 2px black;
