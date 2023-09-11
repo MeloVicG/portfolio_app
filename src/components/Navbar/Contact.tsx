@@ -12,6 +12,7 @@ const Contact = () => {
                     So far I have created the frontend work for visualization and presentation along with JWT authentication (nightmare).
                 <br />
                 <br />
+                <p>you can check out the rough version here</p>
                 <h6><a href="https://gbeidevelopmentsolutions.netlify.app/blueprints">G-BEI development Solutions</a></h6>
                 <p style={{fontFamily: 'Permanent Marker', fontSize: "2em"}}>you can reach me now at LinkedIn</p>
                 <a href="https://www.linkedin.com/in/victor-gargurevich-103026155/" style={{textDecoration:"none"}}><img src={linkedinlogo} alt="" style={{height:"3em", width:"3em"}}/></a>

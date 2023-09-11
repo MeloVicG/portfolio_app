@@ -39,9 +39,9 @@ const Resume = () => {
                     <p>A leading IT consulting firm specializing in optimization of complex end-to-end business process systems for multitude of business verticals including Financial, Digital Media, Healthcare, and Transportation industries.</p>
                     <h5>Software Engineer</h5>
                     <ul>
-                        <li>Developed solutions for clients using Company and Python libraries, resulting in increased efficiency and client satisfaction.</li>
                         <li>Maintained data structure processes as part of full stack implementations with OOP, SQLAlchemy, & Marshmallow.</li>
                         <li>Iterated front-end design for user experience to function with Flask APIs, VueJS, & Node.</li>
+                        <li>Developed solutions for clients using Company and Python libraries, resulting in increased efficiency and client satisfaction.</li>
                         <li>Worked along teammates to build optimal solutions to create multiple releases for company efficiency.</li>
                         <li>Assisted in production support managing company and client’s software to maintain servers.</li>
                     </ul>

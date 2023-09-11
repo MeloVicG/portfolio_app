@@ -9,16 +9,17 @@ import github from '../../images/github.png'
 const Projects = () => {
     return (
         <div className='projects-container' style={{padding:"3em"}}>
-
             <h3>GBEI Development Solutions</h3>
             <div className="projects-box">
                 <img src={GBEI} alt=""/>
                 <ul>
-                <p>Fullstack application to Test and challenge my understanding in Java, Postgres and React. </p>
-                <p>Users will be able to fund their realestate project while maintaining their asset portfolios.</p>
-                    <li>Created JWT authentication with Java and postgres with password hashing</li>
+                <h5>Fullstack application to test, challenge, and exceed the limits to my understanding in Java, PostgreSQL and React/Typscript. </h5>
+                <h6>Users will be able to fund their real estate project while maintaining their asset portfolios.</h6>
+                    <li>Implemented JSON Web Tokens authentication with Java and Postgres for users and secured account with password hashing </li>
+                    <li>Utilized Spring Data JPA to interact with PostgreSQL database to store data for models </li>
                     <br />
                     <li>work in progress...</li>
+                    <br />
                 </ul>
             </div>
             <br />
@@ -28,8 +29,8 @@ const Projects = () => {
             <h3>Latinos Auto Electric</h3>
             <div className="projects-box">
                 <ul>
-                    <p>Full stack application to try adding a new techinque using MySql for M in MERN stack</p>
-                    <p>Owner can easily communicate, set appointments, and inform users about company. </p>
+                    <h5>Full stack application to try adding a new techinque using MySql for M in MERN stack</h5>
+                    <h6>Owner can easily communicate, set appointments, and inform users about company. </h6>
                     <li>Collaborated remotely and leveraged  GitHub, Zoom, and Discord with client and team. Exploited agile methodology and daily standups to plan, coordinate, and deliver a functional MVC.</li>
                     <li>Built end-to-end using Node.JS and React framework including leading collaborative discovery meetings with client, wireframing user journey, and creating a prototype that aligned with requirements and business needs.</li>
                     <li>Developed a robust scalable SQL database utilizing Sequelize that saved user data and enabled users to schedule appointments thereby streamlining administrative processes.</li>
@@ -44,8 +45,8 @@ const Projects = () => {
             <div className="projects-box">
                 <img src={shooterprofile} alt=""/>
                 <ul>
-                    <p>App designed to test most advanced python techniques w/ multiple different libraries and learning VueJS</p>
-                    <p>Users can build their own basic profile in what firearms they use with descriptions </p>
+                    <h5>App designed to test most advanced python techniques w/ multiple different libraries and learning VueJS</h5>
+                    <h6>Users can build their own basic profile in what firearms they use with descriptions </h6>
                     <li>Built to utilize advance python techniques with Flask, WSGI, Marshmallow, PostgreSQL, and APIs </li>
                     <li>Using yarn, Pug, and VueJS Lifecycle to create a front-end to navigate through full stack application.</li>
                 </ul>
@@ -57,8 +58,8 @@ const Projects = () => {
             <h3>StarWars Profile</h3>
             <div className="projects-box">
                 <ul>
-                    <p>Created to challenge my newly developed skills front-end to back-end MERN stack.</p>
-                    <p>You can create your own padawan, choose your lightsaber, attributes, master, and which side of the force</p>
+                    <h5>Created to challenge my newly developed skills front-end to back-end MERN stack.</h5>
+                    <h6>You can create your own padawan, choose your lightsaber, attributes, master, and which side of the force</h6>
                     <li>Built application Utilizing MERN implementing Star Wars API using AXIOS to visually display Star Wars characters and stats</li>
                     <li>Leveraged Mongo database designing all models and RESTful APIs to store user Characters</li>
                     <li>Designed front-end with CSS, Material UI and third-party framer library for animated effects.</li>

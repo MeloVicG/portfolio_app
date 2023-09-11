@@ -46,15 +46,22 @@
 
 
     .achievements-background{
+        flex:1;
         background-color: $colorOne;
         margin: -2% 2%;
         box-shadow: 5px 5px 10px 5px black;
 
         .achievements{
+            flex:1;
             box-shadow: 5px 5px 10px 5px black;
             margin: 5% 5%;
             padding: 10%;
             background-color: white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Vertically center content */
+            align-items: center;
             // border: 2px dotted red;
             
         }
