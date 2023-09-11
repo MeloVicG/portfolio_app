@@ -68,7 +68,7 @@ const Home = () => {
                         <br />
                         <h4>Volleyball Champion MVP</h4>
                         <br />
-                        <p>Three days weekly training after school, followed by personal trainer work. Leading to a college volleyball intramural championship and chosen as the MVP by teammates. (also scored the winning game point in a tie game) </p>
+                        <p>Three days weekly training after school, followed by personal trainer work. Leading to a college volleyball intramural championship and chosen as the MVP by teammates. </p>
                     </div>
                 </div>
             </div>
