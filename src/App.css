@@ -8,7 +8,7 @@
         padding: 0%;
         background-image: url(/src/images/crumbledpaper.jpg);
         /* background: linear-gradient(rgba(10, 5, 5, 0.952), rgba(0, 0, 0, 0.5)); */
-        background-color: rgba(2, 1, 1, 0.664);
+        background-color: rgba(2, 1, 1, 0.836);
         background-position: center;
         background-blend-mode: multiply;
     }

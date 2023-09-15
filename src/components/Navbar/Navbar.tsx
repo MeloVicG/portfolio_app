@@ -10,7 +10,7 @@ const Navbar = () => {
                     {/* <ol><Link to='about' className='link'>About</Link></ol> */}
                     <ol><Link to='projects' className='link'>Projects</Link></ol>
                     <ol><Link to='resume' className='link'>Resume</Link></ol>
-                    <ol><Link to='contact' className='link'>Contact</Link></ol>
+                    <ol style={{marginLeft:"18em"}}><Link to='contact' className='link'>Contact</Link></ol>
                     {/* <ol>Contact</ol> */}
                 </ul>
             </div>
