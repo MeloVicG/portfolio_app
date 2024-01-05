@@ -11,8 +11,10 @@ const Home = () => {
                 <div className="img-color">
                     <div className="text-bubble">
                         <p>
+                            {/* lets make a jokes api in the text bubble */}
                             <img className="spockhands"src={spockhands} alt="" />
-                            I'm a Full Stack Software Developer
+                            Greetings! 
+                            I'm a Developer
                         </p>
                     </div>
                     <div className="img-background">
@@ -20,9 +22,9 @@ const Home = () => {
                     </div>
                 </div>
                 <ul>
-                    <h4>
-                        Greetings
-                    </h4>
+                    <h2>
+                        Greetings !
+                    </h2>
                     <li>I am an Korean American and I am your guy when you want to talk about anything and everything. I love to know a little about a lot and in most cases, doing a deep dive to understand how something works. When something is broken I have to learn why, or I cannot feel at ease. </li>
                     <br />
                     <li>I have been a fitness person ever since I joined the football team. I use to be the small scrawny kid who gets bullied everyday and after studying how to properly conduct myself while exercising, I became much more confident in my everyday actions and loved it so much I decided to help others be more confident in themselves.</li>

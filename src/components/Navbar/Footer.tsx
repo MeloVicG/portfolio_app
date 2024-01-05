@@ -2,10 +2,10 @@ import React from 'react'
 import '../../styles/Footer.scss'
 
 
-const Footer = () => {
+const Footer: React.FC = () => {
     return (
         <div className='footer-container'>
-            <p> Created by Victor using typescript/react - java/spring boot</p>
+            Created by Victor using typescript/react
         </div>
     )
 }
