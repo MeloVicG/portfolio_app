@@ -33,7 +33,7 @@ const Home = () => {
                     <br />
                     <li>Im a big football person, we can go back and forth all day specially when it comes to fantasy</li>
                     <br />
-                    <li>I started my tech Journey since 2020. Ive always had an interest for code but never thought I had it in me to pursue it. I have many friends in the industry and decided to shoot for the sky and now I feel like I can let my imagination go wild. </li>
+                    <li>I started my tech Journey since 2020. Ive always had an interest for code but never thought I had it in me to pursue it. I have many friends in the industry and decided to shoot for the sky and ended up joining the first Code In Place program created by Stanford Professors and graduates. Now I feel like I can let my imagination go wild. </li>
                     <br />
                     <li>I am interested in having all kinds of conversations, I find it a pleasure people are willing to share what they know with me. Get to know me and I look forward to having a conversation with you</li>
 
