@@ -1,14 +1,14 @@
 import linkedinlogo from '../../images/linkedinlogo.png'
 import '../../styles/Contact.scss'
 
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import { useRef } from 'react';
+// import Form from 'react-bootstrap/Form';
+// import Button from 'react-bootstrap/Button';
+// import { useRef } from 'react';
 // import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
-    const form = useRef();
+    // const form = useRef();
 
     const sendEmail = (e: any) => {
         e.preventDefault();
@@ -38,7 +38,7 @@ return (
             <a href="https://www.linkedin.com/in/victor-gargurevich-103026155/" style={{ textDecoration: "none" }}><img src={linkedinlogo} alt="" style={{ height: "3em", width: "3em" }} /></a>
         </div>
 
-        <div className="box-contact">
+        {/* <div className="box-contact">
             <h1>Contact</h1>
             <Form onSubmit={sendEmail}>
                 <Form.Group className='input' controlId="Name">
@@ -61,7 +61,7 @@ return (
                     Submit
                 </Button>
             </Form>
-        </div>
+        </div> */}
 
     </div>
 )
