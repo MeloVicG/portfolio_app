@@ -27,7 +27,9 @@ const Projects = () => {
             <br />
 
             <h3>Latinos Auto Electric</h3>
+
             <div className="projects-box">
+                <img src={lae} alt=""/>
                 <ul>
                     <h5>Full stack application to try adding a new techinque using MySql for M in MERN stack</h5>
                     <h6>Owner can easily communicate, set appointments, and inform users about company. </h6>
@@ -35,7 +37,6 @@ const Projects = () => {
                     <li>Built end-to-end using Node.JS and React framework including leading collaborative discovery meetings with client, wireframing user journey, and creating a prototype that aligned with requirements and business needs.</li>
                     <li>Developed a robust scalable SQL database utilizing Sequelize that saved user data and enabled users to schedule appointments thereby streamlining administrative processes.</li>
                 </ul>
-                <img src={lae} alt=""/>
             </div>
             <br />
             <br />
@@ -57,6 +58,7 @@ const Projects = () => {
             
             <h3>StarWars Profile</h3>
             <div className="projects-box">
+                <img src={starwars} alt=""/>
                 <ul>
                     <h5>Created to challenge my newly developed skills front-end to back-end MERN stack.</h5>
                     <h6>You can create your own padawan, choose your lightsaber, attributes, master, and which side of the force</h6>
@@ -64,7 +66,6 @@ const Projects = () => {
                     <li>Leveraged Mongo database designing all models and RESTful APIs to store user Characters</li>
                     <li>Designed front-end with CSS, Material UI and third-party framer library for animated effects.</li>
                 </ul>
-                <img src={starwars} alt=""/>
             </div>
             <br />
             <br />

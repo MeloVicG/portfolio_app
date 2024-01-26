@@ -1,5 +1,46 @@
 @import "./Variables.scss";
 
+// desktop
+@media screen and (min-width: 1200px) {
+.resume-container{
+    background-color: $colorOne;
+    // display: flex;
+    // border: 2px dotted red;
+    margin: 5% 5%;
+    padding: 2% 0%;
+    box-shadow: 0px 0px 10px 0px black;
+    
+    .resume-box-one{
+        justify-content: flex;
+        
+        .summary-box{
+            margin: 3%;
+            background-color: white;
+            box-shadow: 0px 0px 10px 0px black;
+        }
+        .techstack-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1em;
+            margin: 3%;
+            background-color: white;
+            box-shadow: 0px 0px 10px 0px black;
+        }
+        .exp-box{
+            text-align: left;
+            padding: 3em;
+            margin: 3%;
+            background-color: white;
+            box-shadow: 0px 0px 10px 0px black;
+        }
+    }
+
+    
+}}
+
+// mobile
+@media screen and (max-width: 1200px) {
 .resume-container{
     background-color: $colorOne;
     // display: flex;
@@ -18,13 +59,157 @@
         }
         .techstack-box{
             margin: 3%;
+            padding: 1.5em;
             background-color: white;
             box-shadow: 0px 0px 10px 0px black;
         }
         .exp-box{
+            text-align: center;
             margin: 3%;
+            padding: 1.5em;
             background-color: white;
             box-shadow: 0px 0px 10px 0px black;
         }
     }
+}}
+
+// desktop
+@media screen and (min-width: 1200px) {
+.box-two{
+    display: flex;
+    margin: 10% 0%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3rem;
+
+
+
+    .achievements-background{
+        flex:1;
+        background-color: $colorOne;
+        margin: -2% 2%;
+        box-shadow: 5px 5px 10px 5px black;
+
+        .achievements{
+            flex:1;
+            box-shadow: 5px 5px 10px 5px black;
+            margin: 5% 5%;
+            padding: 10%;
+            background-color: white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Vertically center content */
+            align-items: center;
+            // border: 2px dotted red;
+            
+        }
+    }
 }
+
+// .box-three {
+//         box-shadow: 5px 5px 10px 5px black;
+//         padding: 2% 0%;
+//         background-color: white;
+        
+//         .img-background{
+//             padding: 2% 0%;
+//             margin: 2% 20%;
+//             background-color: $colorOne;
+//             box-shadow: 5px 5px 10px 5px black;
+        
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+
+//         //mobile
+//         @media screen and (max-width: 1200px) {
+//         img{
+//             max-width: 20%;
+//             height: auto;
+//             object-fit: contain;
+//             box-shadow: 0px 0px 10px 2px black;
+//         }}
+
+//         //desktop
+//         @media screen and (min-width: 800px) {
+//         img{
+//             max-width: 100%;
+//             height: auto;
+//             object-fit: contain;
+
+//             box-shadow: 0px 0px 10px 2px black;
+//         }
+//         }
+//     }
+// }
+}
+
+//mobile
+@media screen and (max-width: 1200px) {
+.box-two{
+    // display: flex;
+    margin: 10% 0%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3rem;
+
+    .achievements-background{
+        flex:1;
+        background-color: $colorOne;
+        margin: 2%;
+        box-shadow: 5px 5px 10px 5px black;
+
+        .achievements{
+            flex:1;
+            box-shadow: 5px 5px 10px 5px black;
+            margin: 5%;
+            padding: 5%;
+            background-color: white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Vertically center content */
+            align-items: center;
+            // border: 2px dotted red;
+            
+        }
+    }
+}
+
+// .box-three {
+//         box-shadow: 5px 5px 10px 5px black;
+//         padding: 2% 0%;
+//         background-color: white;
+        
+//         .img-background{
+//             padding: 2% 0%;
+//             margin: 2% 20%;
+//             background-color: $colorOne;
+//             box-shadow: 5px 5px 10px 5px black;
+        
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+
+//         //mobile
+//         @media screen and (max-width: 1200px) {
+//         img{
+//             max-width: 20%;
+//             height: auto;
+//             object-fit: contain;
+//             box-shadow: 0px 0px 10px 2px black;
+//         }}
+
+//         //desktop
+//         @media screen and (min-width: 800px) {
+//         img{
+//             max-width: 100%;
+//             height: auto;
+//             object-fit: contain;
+
+//             box-shadow: 0px 0px 10px 2px black;
+//         }
+//         }
+//     }
+// }
+}
+

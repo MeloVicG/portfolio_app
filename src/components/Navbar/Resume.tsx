@@ -16,7 +16,7 @@ const Resume = () => {
                         </p>
                     </div>
 
-                    <div className="techstack-box" style={{display:"flex", justifyContent:"center", alignItems:"center", padding:"1em"}}>
+                    <div className="techstack-box">
                         <h3 style={{ fontFamily: 'Permanent Marker', marginRight: '1em', marginLeft: '1em' }}>Techstack</h3>
                         <p>
                             <h5>Languages:</h5> 
@@ -33,7 +33,7 @@ const Resume = () => {
                         </p>
                     </div>
 
-                    <div className="exp-box" style={{textAlign:"left", padding:"3em"}}>
+                    <div className="exp-box">
                         <h3 style={{ fontFamily: 'Permanent Marker', marginLeft: '1em', paddingTop:"1em", textAlign:"center" }}>Work Experience</h3>
                         <br />
                         <h4 style={{textDecoration:"underline"}}>Oneil Digital Solutions</h4> 
@@ -57,6 +57,20 @@ const Resume = () => {
                             <li>Launched successful initial campaigns building a relationship with new partners to ensure trust.</li>
                             <li>Visited client retail operations analyzing diverse demographics in several states to promote products and broaden sales.</li>
                         </ul>
+
+                        <br />
+                        <br />
+                        <h4 style={{textDecoration:"underline"}}>LA Fitness</h4> 
+                        <p>Chain of Health Fitness Clubs providing a wide range of programs and utilities</p>
+                        <h5>Personal Triainer</h5>
+                        <ul>
+                            <li>Assisted clients to perform better than their capacity both physically and mentally to achieve desired fitness objectives.</li>
+                            <li>Implemented personalized training programs tailored to individual fitness levels, goals, and preferences.</li>
+                            <li>Provided, guided, and improved client’s knowledge to prevent injury and achieve a healthier life.</li>
+                            <li>Maintained and organized a structured schedule for multiple clients to be able to attend appointments.</li>
+                        </ul>
+                        
+
 
                         <br />
                         <br />

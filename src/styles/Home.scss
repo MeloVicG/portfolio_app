@@ -1,135 +1,168 @@
 @import "./Variables.scss";
 
-.spockhands{
-    height: 100%;
-    width: 5%;
-}
-
-.box-one {
-    ul{
-        list-style-type: none;
-        font-family: 'Permanent Marker', cursive;
-        font-size: 1.3rem;
-        color: white;
-
+//desktop
+@media screen and (min-width: 1200px) {
+.home-container{
+    // margin: 0;
+    // overflow: scroll;
+    .spockhands{
+        height: 100%;
+        width: 5%;
     }
 
-    display: flex;
-    // border: 2px dotted red;
-    margin: 5% 7%;
-    
-    .img-color{
-        position:relative;
-        background-color: $colorOne;
-        border-radius: 100vw;
-        height: 35vw;
-        width: 35vw;
-        // margin: 0% 10vw;
-        // overflow:hidden;
-
-        .text-bubble {
-            // text-align: center;
+    .box-one {
+        flex: 1;
+        ul{
+            list-style-type: none;
             font-family: 'Permanent Marker', cursive;
-            position: absolute;
-            background-color: white; /* Background color of the bubble */
-            color: black; /* Text color inside the bubble */
-            border-radius: 40px; /* Rounded corners for the bubble */
-            padding: 10px 15px; /* Padding inside the bubble */
-            max-width: 80%; /* Maximum width of the bubble */
-            top: 4vw;
-        }
-    
-        .text-bubble::after {
-            content: '';
-            position: absolute;
-            // bottom: px; /* Adjust as needed to position the triangle */
-            right: 15%; /* Position the triangle in the middle */
-            // margin-left: -5px; /* Half of the triangle's width */
-            border-width: 1.4em; /* Adjust the size of the triangle */
-            border-style: solid;
-            border-color: #ffffff transparent transparent transparent;
-            // display: block;
-            // width: 0;
+            font-size: 1.3rem;
+            color: white;
         }
 
-
-        .img-background{
-            position: relative;
-            // border: 2px dotted red;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0% 0% 10%;
-
-            animation: slideIn 2s ease; /* Adjust the animation duration and easing as needed */
-            animation-fill-mode: forwards; /* Keeps the final state of the animation */
-            transform: translateX(-100%);
-        }
-
-        @keyframes slideIn {
-            0% {
-                transform: translateX(-120%);
-            }
-            100% {
-                transform: translateX(0); /* Slide in to the right */
-            }
-        }
-    }
-}
-
-.box-two{
-    display: flex;
-    margin: 10% 0%;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 1.3rem;
-
-
-
-    .achievements-background{
-        flex:1;
-        background-color: $colorOne;
-        margin: -2% 2%;
-        box-shadow: 5px 5px 10px 5px black;
-
-        .achievements{
-            flex:1;
-            box-shadow: 5px 5px 10px 5px black;
-            margin: 5% 5%;
-            padding: 10%;
-            background-color: white;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Vertically center content */
-            align-items: center;
-            // border: 2px dotted red;
-            
-        }
-    }
-}
-
-.box-three {
-        box-shadow: 5px 5px 10px 5px black;
-        padding: 2% 0%;
-        background-color: white;
-        
-        .img-background{
-            padding: 2% 0%;
-            margin: 2% 20%;
-            background-color: $colorOne;
-            box-shadow: 5px 5px 10px 5px black;
-        
         display: flex;
-        justify-content: center;
-        align-items: center;
+        // border: 2px dotted red;
+        margin: 5% 7%;
+        
+        .img-color{
+            position:relative;
+            background-color: $colorOne;
+            border-radius: 100vw;
+            height: 35vw;
+            width: 35vw;
+            // margin: 0% 10vw;
+            // overflow:hidden;
 
-        img{
-            max-height: 100%;
-            max-width: 100%;
-            object-fit: contain;
+            .text-bubble {
+                // text-align: center;
+                font-family: 'Permanent Marker', cursive;
+                position: absolute;
+                background-color: white; /* Background color of the bubble */
+                color: black; /* Text color inside the bubble */
+                border-radius: 40px; /* Rounded corners for the bubble */
+                padding: 10px 15px; /* Padding inside the bubble */
+                max-width: 80%; /* Maximum width of the bubble */
+                top: 4vw;
+            }
+        
+            .text-bubble::after {
+                content: '';
+                position: absolute;
+                // bottom: px; /* Adjust as needed to position the triangle */
+                right: 15%; /* Position the triangle in the middle */
+                // margin-left: -5px; /* Half of the triangle's width */
+                border-width: 1.4em; /* Adjust the size of the triangle */
+                border-style: solid;
+                border-color: #ffffff transparent transparent transparent;
+                // display: block;
+                // width: 0;
+            }
 
-            box-shadow: 0px 0px 10px 2px black;
+
+            .img-background{
+                position: relative;
+                // border: 2px dotted red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // padding: 0% 0% 10%;
+                height: auto;
+                animation: slideIn 2s ease; /* Adjust the animation duration and easing as needed */
+                animation-fill-mode: forwards; /* Keeps the final state of the animation */
+                transform: translateX(-100%);
+            }
+
+            @keyframes slideIn {
+                0% {
+                    transform: translateX(-120%);
+                }
+                100% {
+                    transform: translateX(0); /* Slide in to the right */
+                }
+            }
         }
-
     }
+
 }
+}
+
+
+// mobile
+@media screen and (max-width: 1200px) {
+.home-container{
+    .spockhands{
+        // height: 15%;
+        width: 1.4em;
+    }
+
+    .box-one {
+        flex: 1;
+        ul{
+            margin-top: 11em;
+            list-style-type: none;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 1.3rem;
+            color: white;
+        }
+        margin: 5% 7%;
+        
+        .img-color{
+            position:relative;
+            background-color: $colorOne;
+            border-radius: 100vw;
+            height: 100vw;
+            // width: 35vw;
+            // margin: 0% 5vw;
+
+            .text-bubble {
+                justify-content: center;
+                text-align: center;
+                font-family: 'Permanent Marker', cursive;
+                position: absolute;
+                background-color: white; /* Background color of the bubble */
+                color: black; /* Text color inside the bubble */
+                border-radius: 40px; /* Rounded corners for the bubble */
+                padding: 10px 15px; /* Padding inside the bubble */
+                // max-width: 90%; /* Maximum width of the bubble */
+                max-width: 20em; /* Maximum width of the bubble */
+                // top: 4vw;
+            }
+        
+            .text-bubble::after {
+                content: '';
+                position: absolute;
+                // bottom: px; /* Adjust as needed to position the triangle */
+                right: 20%; /* Position the triangle in the middle */
+                // margin-left: -5px; /* Half of the triangle's width */
+                border-width: 1.4em; /* Adjust the size of the triangle */
+                border-style: solid;
+                border-color: #ffffff transparent transparent transparent;
+                // display: block;
+                // width: 0;
+            }
+
+
+            .img-background{
+                position: relative;
+                // border: 2px dotted red;
+                display: flex;
+                justify-content: center;
+                // align-items: center;
+                // padding: 0% 0% 10%;
+                height: 30em;
+                width: 18em;
+                animation: slideIn 2s ease; /* Adjust the animation duration and easing as needed */
+                animation-fill-mode: forwards; /* Keeps the final state of the animation */
+                transform: translateX(-100%);
+            }
+
+            @keyframes slideIn {
+                0% {
+                    transform: translateX(-120%);
+                }
+                100% {
+                    transform: translateX(0); /* Slide in to the right */
+                }
+            }
+        }
+    }
+}}

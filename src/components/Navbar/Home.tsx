@@ -13,8 +13,9 @@ const Home = () => {
                         <p>
                             {/* lets make a jokes api in the text bubble */}
                             <img className="spockhands"src={spockhands} alt="" />
-                            Greetings! 
-                            I'm a Developer
+                            Greetings!
+                            <br /> 
+                            I'm a Software Developer
                         </p>
                     </div>
                     <div className="img-background">
