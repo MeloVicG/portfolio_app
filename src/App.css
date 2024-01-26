@@ -8,7 +8,7 @@
         margin: 0%;
         /* padding: 0%; */
         background-image: url(/src/images/crumbledpaper.jpg);
-        background-color: rgba(2, 1, 1, 0.836);
+        /* background-color: rgba(2, 1, 1, 0.836); */
         background-position: center;
         background-blend-mode: multiply;
         overflow: scroll;
