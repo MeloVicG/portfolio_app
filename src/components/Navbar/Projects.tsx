@@ -10,7 +10,7 @@ const Projects = () => {
         <div className='projects-container' style={{ padding: "3em" }}>
             <h3>GBEI Development Solutions</h3>
             <div className="projects-box">
-                <img src={GBEI} alt="" style={{borderRadius:"2em"}}/>
+                <img src={GBEI} alt="" style={{borderRadius:"2vw"}}/>
                 <ul>
                     <h5>Fullstack application to test, challenge, and exceed the limits to my understanding in Java, PostgreSQL and React/Typscript. </h5>
                     <h6>Users will be able to fund their real estate project while maintaining their asset portfolios.</h6>
@@ -28,7 +28,7 @@ const Projects = () => {
             <h3>Latinos Auto Electric</h3>
 
             <div className="projects-box">
-                <img src={lae} alt="" style={{borderRadius:"2em"}}/>
+                <img src={lae} alt="" style={{borderRadius:"2vw"}}/>
                 <ul>
                     <h5>Full stack application to try adding a new techinque using MySql for M in MERN stack</h5>
                     <h6>Owner can easily communicate, set appointments, and inform users about company. </h6>
@@ -43,7 +43,7 @@ const Projects = () => {
 
             <h3>FireArms Profile</h3>
             <div className="projects-box">
-                <img src={shooterprofile} alt="" style={{borderRadius:"2em"}}/>
+                <img src={shooterprofile} alt="" style={{borderRadius:"2vw"}}/>
                 <ul>
                     <h5>App designed to test most advanced python techniques w/ multiple different libraries and learning VueJS</h5>
                     <h6>Users can build their own basic profile in what firearms they use with descriptions </h6>
@@ -57,7 +57,7 @@ const Projects = () => {
 
             <h3>StarWars Profile</h3>
             <div className="projects-box">
-                <img src={starwars} alt="" style={{borderRadius:"2em"}} />
+                <img src={starwars} alt="" style={{borderRadius:"2vw"}} />
                 <ul>
                     <h5>Created to challenge my newly developed skills front-end to back-end MERN stack.</h5>
                     <h6>You can create your own padawan, choose your lightsaber, attributes, master, and which side of the force</h6>
