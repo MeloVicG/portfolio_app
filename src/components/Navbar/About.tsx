@@ -25,7 +25,7 @@ const About = () => {
                 <div className="text-bubble">
                     <p>
                         {/* lets make a jokes api in the text bubble */}
-                        <img className="spockhands" src={spockhands} alt="" />
+                        <img className="spockhands" src={spockhands}  />
                         Greetings!
                         <br />
                         I'm a Software Developer
@@ -52,65 +52,65 @@ const About = () => {
                         <ul>
                             <div className='techStack-box'>
                                 <li>JavaScript</li>
-                                <img src={jsLogo} alt="" style={{ marginTop:"10px" }}/>
+                                <img src={jsLogo}  style={{ marginTop:"10px" }}/>
                             </div >
                             <div className='techStack-box' >
                                 <li>TypeScript</li>
-                                <img src={tsLogo} alt="" style={{ marginTop:"10px" }}/>
+                                <img src={tsLogo}  style={{ marginTop:"10px" }}/>
                             </div>
                             <div className='techStack-box'>
                                 <li>Java</li>
-                                <img src={javaLogo} alt="" />
+                                <img src={javaLogo}  />
                             </div>
                             <div className='techStack-box'>
                                 <li>Python</li>
-                                <img src={pythonLogo} alt="" style={{ marginTop:"12px" }}/>
+                                <img src={pythonLogo}  style={{ marginTop:"12px" }}/>
                             </div>
                             <div className='techStack-box'>
                                 <li>HTML</li>
-                                <img src={htmlLogo} alt="" style={{ width: "80px" }} />
+                                <img src={htmlLogo}  style={{ width: "80px" }} />
                             </div>
                             <div className='techStack-box'>
                                 <li>CSS/SASS</li>
-                                <img src={cssLogo} alt="" style={{marginTop:"5px"}} />
+                                <img src={cssLogo}  style={{marginTop:"5px"}} />
                             </div>
                         </ul>
                         <ul>
                             <div className='techStack-box'>
                                 <li>React/Native</li>
-                                <img src={reactLogo} alt="" style={{ marginTop:"10px" }}/>
+                                <img src={reactLogo}  style={{ marginTop:"10px" }}/>
                             </div>
                             <div className='techStack-box'>
                                 <li>VueJS</li>
-                                <img src={vueJSLogo} alt="" style={{ marginTop:"10px" }}/>
+                                <img src={vueJSLogo}  style={{ marginTop:"10px" }}/>
                             </div>
                             <div className='techStack-box'>
                                 <li>AWS Cloud</li>
-                                <img src={awsLogo} alt="" style={{ width: "60px", marginTop:"12px" }}/>
+                                <img src={awsLogo}  style={{ width: "60px", marginTop:"12px" }}/>
                             </div>
                             <div className='techStack-box'>
                                 <li>Node</li>
-                                <img src={nodeJSLogo} alt="" style={{ width: "5em", marginTop:"7px" }}/>
+                                <img src={nodeJSLogo}  style={{ width: "5em", marginTop:"7px" }}/>
                             </div>
 
                             <div className='techStack-box' >
                                 <li>Git Control</li>
-                                <img src={githubLogo} alt="" style={{ width: "70px" }} />
+                                <img src={githubLogo}  style={{ width: "70px" }} />
                             </div>
                         </ul>
 
                         <ul>
                             <div className='techStack-box'>
                                 <li>PostgreSQL</li>
-                                <img src={postgresLogo} alt="" style={{ width: "7vw" }} />
+                                <img src={postgresLogo}  style={{ width: "7vw" }} />
                             </div>
                             <div className='techStack-box'>
                                 <li>MySQL</li>
-                                <img src={mysqlLogo} alt="" style={{ width: "70px", marginTop:"12px" }}/>
+                                <img src={mysqlLogo}  style={{ width: "70px", marginTop:"12px" }}/>
                             </div>
                             <div className='techStack-box'>
                                 <li>MongoDB</li>
-                                <img src={mongoLogo} alt="" />
+                                <img src={mongoLogo}  />
                             </div>
                         </ul>
                 </section>

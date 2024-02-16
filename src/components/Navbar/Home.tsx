@@ -5,9 +5,9 @@ import { useEffect, useState } from 'react';
 
 
 const Home = () => {
-    const [intro, setIntro] = useState<string[]>(['HELLO!', 'YOU ARE ENTERING']); // Text for each line
+    const [intro] = useState<string[]>(['HELLO!', 'YOU ARE ENTERING']); // Text for each line
     const [typedLines, setTypedLines] = useState<string[]>([]); // Lines that have been typed out
-    const [fadeInComplete, setFadeInComplete] = useState<boolean>(false);
+    const [fadeInComplete] = useState<boolean>(false);
 
     useEffect(() => {
         const typingDelay = 2500; // Delay between typing of each line (milliseconds)
