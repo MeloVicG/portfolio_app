@@ -10,22 +10,25 @@
         font-size: 1.2rem;
         text-align: center;
         margin: 0%;
-        /* padding: 0%; */
-        // background-image: url(/src/images/crumbledpaper.jpg);
-        /* background-color: rgba(2, 1, 1, 0.836); */
-        background-position: center;
-        background-blend-mode: multiply;
-        overflow: scroll;
-
+        padding: 0%;
+        background-size: cover;
+        // background-color: rgba(4, 3, 75, 0.87);
+        // overflow: hidden;
+        /* background-image: linear-gradient(to bottom, rgba(8, 31, 61, 0.664), rgba(11, 72, 151, 0.61)); Gradient from solid color to transparent */
+        
+        video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
     }
     
-    
-    .title{
-        font-size: 5rem;
-        font-family: 'Permanent Marker', cursive;
-        font-weight: bold;
-        -webkit-text-stroke: 1px #33FF33;
-    }
 }
 
 /* desktop */
@@ -53,10 +56,4 @@
         }
     }
     
-    .title{
-        font-size: 5rem;
-        font-family: 'Permanent Marker', cursive;
-        font-weight: bold;
-        -webkit-text-stroke: 1px #33FF33;
-    }
 }

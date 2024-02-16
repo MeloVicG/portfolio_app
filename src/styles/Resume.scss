@@ -10,7 +10,7 @@
     margin: 10% 5%;
     padding: 2%;
     box-shadow: 0px 0px 10px 0px black;
-    border-radius: 2vw;
+    border-radius: 3vw;
     border: 1px solid $colorOne;
 
     
@@ -85,24 +85,31 @@
 // mobile
 @media screen and (max-width: 1200px) {
 .resume-container{
-    background-color: $colorOne;
+    background-color: rgba(40, 47, 72, .8);
     // display: flex;
     // border: 2px dotted red;
     margin: 5% 5%;
     padding: 2% 0%;
+    border: 1px solid $colorOne;
+    border-radius: 2vw;
+
     box-shadow: 0px 0px 10px 0px black;
     
     .resume-box-one{
         justify-content: flex;
+        border-radius: 3vw;
+
         
         .summary-box{
             margin: 3%;
             background-color: white;
+            border-radius: 3vw;
             box-shadow: 0px 0px 10px 0px black;
         }
         .techstack-box{
             margin: 3%;
             padding: 1.5em;
+            border-radius: 3vw;
             background-color: white;
             box-shadow: 0px 0px 10px 0px black;
         }
@@ -110,15 +117,12 @@
             text-align: center;
             margin: 3%;
             padding: 1.5em;
+            border-radius: 3vw;
             background-color: white;
             box-shadow: 0px 0px 10px 0px black;
         }
     }
-}}
-
-
-//mobile
-@media screen and (max-width: 1200px) {
+}
 .box-two{
     // display: flex;
     margin: 10% 0%;
@@ -127,9 +131,12 @@
 
     .achievements-background{
         flex:1;
-        background-color: $colorOne;
+        background-color: rgba(40, 47, 72, .8);
+        border: 1px solid $colorOne;
         margin: 2%;
         box-shadow: 5px 5px 10px 5px black;
+        border-radius: 3vw;
+
 
         .achievements{
             flex:1;
@@ -137,6 +144,7 @@
             margin: 5%;
             padding: 5%;
             background-color: white;
+            border-radius: 3vw;
 
             display: flex;
             flex-direction: column;
@@ -148,5 +156,5 @@
     }
 }
 
-}
 
+}
