@@ -1,43 +1,86 @@
 @import "./Variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 // desktop
 @media screen and (min-width: 1200px) {
 .resume-container{
-    background-color: $colorOne;
+    background-color: rgba(40, 47, 72, .8);
     // display: flex;
     // border: 2px dotted red;
-    margin: 5% 5%;
-    padding: 2% 0%;
+    margin: 10% 5%;
+    padding: 2%;
     box-shadow: 0px 0px 10px 0px black;
+    border-radius: 2vw;
+    border: 1px solid $colorOne;
+
     
     .resume-box-one{
         justify-content: flex;
-        
+        border-radius: 1.5vw;
+
+
         .summary-box{
             margin: 3%;
             background-color: white;
             box-shadow: 0px 0px 10px 0px black;
+            border-radius: 1.5vw;
+
         }
         .techstack-box{
             display: flex;
             justify-content: center;
             align-items: center;
+            border-radius: 1.5vw;
+
             padding: 1em;
             margin: 3%;
             background-color: white;
             box-shadow: 0px 0px 10px 0px black;
         }
         .exp-box{
+            border-radius: 1.5vw;
+
             text-align: left;
             padding: 3em;
             margin: 3%;
             background-color: white;
             box-shadow: 0px 0px 10px 0px black;
         }
-    }
+    }}
 
+    .box-two{
+        display: flex;
+        margin: 10% 0%;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Calistoga', serif;
+        font-size: 1.3rem;
+        .achievements-background{
+            
+            flex:1;
+            border: 1px solid $colorOne;
+            background-color: rgba(40, 47, 72, .8);
+            border-radius: 2vw;
+            margin: -2% 2%;
+            box-shadow: 5px 5px 10px 5px black;
     
-}}
+            .achievements{
+                flex:1;
+                box-shadow: 5px 5px 10px 5px black;
+                margin: 5% 5%;
+                padding: 10%;
+                border-radius: 1.5vw;
+                background-color: white;
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center; /* Vertically center content */
+                align-items: center;
+                // border: 2px dotted red;
+                
+            }
+        }
+    }
+}
 
 // mobile
 @media screen and (max-width: 1200px) {
@@ -73,76 +116,6 @@
     }
 }}
 
-// desktop
-@media screen and (min-width: 1200px) {
-.box-two{
-    display: flex;
-    margin: 10% 0%;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 1.3rem;
-
-
-
-    .achievements-background{
-        flex:1;
-        background-color: $colorOne;
-        margin: -2% 2%;
-        box-shadow: 5px 5px 10px 5px black;
-
-        .achievements{
-            flex:1;
-            box-shadow: 5px 5px 10px 5px black;
-            margin: 5% 5%;
-            padding: 10%;
-            background-color: white;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Vertically center content */
-            align-items: center;
-            // border: 2px dotted red;
-            
-        }
-    }
-}
-
-// .box-three {
-//         box-shadow: 5px 5px 10px 5px black;
-//         padding: 2% 0%;
-//         background-color: white;
-        
-//         .img-background{
-//             padding: 2% 0%;
-//             margin: 2% 20%;
-//             background-color: $colorOne;
-//             box-shadow: 5px 5px 10px 5px black;
-        
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-
-//         //mobile
-//         @media screen and (max-width: 1200px) {
-//         img{
-//             max-width: 20%;
-//             height: auto;
-//             object-fit: contain;
-//             box-shadow: 0px 0px 10px 2px black;
-//         }}
-
-//         //desktop
-//         @media screen and (min-width: 800px) {
-//         img{
-//             max-width: 100%;
-//             height: auto;
-//             object-fit: contain;
-
-//             box-shadow: 0px 0px 10px 2px black;
-//         }
-//         }
-//     }
-// }
-}
 
 //mobile
 @media screen and (max-width: 1200px) {
@@ -175,41 +148,5 @@
     }
 }
 
-// .box-three {
-//         box-shadow: 5px 5px 10px 5px black;
-//         padding: 2% 0%;
-//         background-color: white;
-        
-//         .img-background{
-//             padding: 2% 0%;
-//             margin: 2% 20%;
-//             background-color: $colorOne;
-//             box-shadow: 5px 5px 10px 5px black;
-        
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-
-//         //mobile
-//         @media screen and (max-width: 1200px) {
-//         img{
-//             max-width: 20%;
-//             height: auto;
-//             object-fit: contain;
-//             box-shadow: 0px 0px 10px 2px black;
-//         }}
-
-//         //desktop
-//         @media screen and (min-width: 800px) {
-//         img{
-//             max-width: 100%;
-//             height: auto;
-//             object-fit: contain;
-
-//             box-shadow: 0px 0px 10px 2px black;
-//         }
-//         }
-//     }
-// }
 }
 

@@ -1,5 +1,10 @@
+@import "./Variables.scss";
+
 .contact-box-one{
-    background-color: white;
+    background-color: rgba(40, 47, 72, .8);
+    border: 1px solid $colorOne;
+    border-radius: 1.5vw;
+    color: white;
     margin-top: 10%;
     // margin: 7% 5%;
     padding: 2% 2%;
