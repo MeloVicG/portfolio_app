@@ -34,8 +34,7 @@ const About = () => {
 
                 <section className="left-box">
                     <div className="profile_pic">
-                        {/* <img src={crop1} alt="seattle rooftop" /> */}
-                        <img src={sscProfile} alt="library photo" />
+                        <img src={sscProfile} alt="library" />
                     </div>
                     <div className="profile_description">
                         <ul>
