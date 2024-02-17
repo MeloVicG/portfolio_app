@@ -4,7 +4,6 @@ import lae from '../../images/lae.png'
 import shooterprofile from '../../images/shooterprofile.png'
 import GBEI from '../../images/GDS.png'
 import github from '../../images/github.png'
-import { log } from 'console'
 import hackerAlgo from '../../images/hackerhero_algo_track.png'
 
 const Projects = () => {
