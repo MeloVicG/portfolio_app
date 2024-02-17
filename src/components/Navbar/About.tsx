@@ -47,74 +47,75 @@ const About = () => {
                 </section>
 
                 <section className="right-box">
-                        <h3>TechStack</h3>
-                        <ul>
-                            <div className='techStack-box'>
-                                <li>JavaScript</li>
-                                <img src={jsLogo} alt="logo" style={{ marginTop:"10px" }}/>
-                            </div >
-                            <div className='techStack-box' >
-                                <li>TypeScript</li>
-                                <img src={tsLogo} alt="logo" style={{ marginTop:"10px" }}/>
-                            </div>
-                            <div className='techStack-box'>
-                                <li>Java</li>
-                                <img src={javaLogo} alt="logo" />
-                            </div>
-                            <div className='techStack-box'>
-                                <li>Python</li>
-                                <img src={pythonLogo} alt="logo" style={{ marginTop:"12px" }}/>
-                            </div>
-                            <div className='techStack-box'>
-                                <li>HTML</li>
-                                <img src={htmlLogo} alt="logo" style={{ width: "80px" }} />
-                            </div>
-                            <div className='techStack-box'>
-                                <li>CSS/SASS</li>
-                                <img src={cssLogo} alt="logo" style={{marginTop:"5px"}} />
-                            </div>
-                        </ul>
-                        <ul>
-                            <div className='techStack-box'>
-                                <li>React/Native</li>
-                                <img src={reactLogo} alt="logo" style={{ marginTop:"10px" }}/>
-                            </div>
-                            <div className='techStack-box'>
-                                <li>VueJS</li>
-                                <img src={vueJSLogo} alt="logo" style={{ marginTop:"10px" }}/>
-                            </div>
-                            <div className='techStack-box'>
-                                <li>AWS Cloud</li>
-                                <img src={awsLogo} alt="logo" style={{ width: "60px", marginTop:"12px" }}/>
-                            </div>
-                            <div className='techStack-box'>
-                                <li>Node</li>
-                                <img src={nodeJSLogo} alt="logo" style={{ width: "5em", marginTop:"7px" }}/>
-                            </div>
+                    <h3>TechStack</h3>
+                    <ul>
+                        <div className='techStack-box'>
+                            <li>JavaScript</li>
+                            <img src={jsLogo} alt="logo" style={{ marginTop: "10px" }} />
+                        </div >
+                        <div className='techStack-box' >
+                            <li>TypeScript</li>
+                            <img src={tsLogo} alt="logo" style={{ marginTop: "10px" }} />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>Java</li>
+                            <img src={javaLogo} alt="logo" />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>Python</li>
+                            <img src={pythonLogo} alt="logo" style={{ marginTop: "12px" }} />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>HTML</li>
+                            <img src={htmlLogo} alt="logo" style={{ width: "80px" }} />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>CSS/SASS</li>
+                            <img src={cssLogo} alt="logo" style={{ marginTop: "5px" }} />
+                        </div>
+                    </ul>
+                    <ul>
+                        <div className='techStack-box'>
+                            <li>React/Native</li>
+                            <img src={reactLogo} alt="logo" style={{ marginTop: "10px" }} />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>VueJS</li>
+                            <img src={vueJSLogo} alt="logo" style={{ marginTop: "10px" }} />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>AWS Cloud</li>
+                            <img src={awsLogo} alt="logo" style={{ width: "60px", marginTop: "12px" }} />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>Node</li>
+                            <img src={nodeJSLogo} alt="logo" style={{ width: "5em", marginTop: "7px" }} />
+                        </div>
 
-                            <div className='techStack-box' >
-                                <li>Git Control</li>
-                                <img src={githubLogo} alt="logo" style={{ width: "70px" }} />
-                            </div>
-                        </ul>
+                        <div className='techStack-box' >
+                            <li>Git Control</li>
+                            <img src={githubLogo} alt="logo" style={{ width: "70px" }} />
+                        </div>
+                    </ul>
 
-                        <ul>
-                            <div className='techStack-box'>
-                                <li>PostgreSQL</li>
-                                <img src={postgresLogo} alt="logo" style={{ width: "7vw" }} />
-                            </div>
-                            <div className='techStack-box'>
-                                <li>MySQL</li>
-                                <img src={mysqlLogo} alt="logo" style={{ width: "70px", marginTop:"12px" }}/>
-                            </div>
-                            <div className='techStack-box'>
-                                <li>MongoDB</li>
-                                <img src={mongoLogo} alt="logo" />
-                            </div>
-                        </ul>
+                    <ul>
+                        <div className='techStack-box'>
+                            <li>PostgreSQL</li>
+                            <img src={postgresLogo} alt="logo" style={{ width: "7vw" }} />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>MySQL</li>
+                            <img src={mysqlLogo} alt="logo" style={{ width: "70px", marginTop: "12px" }} />
+                        </div>
+                        <div className='techStack-box'>
+                            <li>MongoDB</li>
+                            <img src={mongoLogo} alt="logo" />
+                        </div>
+                    </ul>
                 </section>
 
             </div>
+            
 
         </div >
     )
