@@ -61,6 +61,15 @@
         }
         .right-box{
             width: 100%;
+
+            h3{
+                // align-items: center;
+                // border-color: red dotted 4px;
+                font-family: 'Permanent Marker', cursive;
+                font-size: 2em;
+                color: black;
+                -webkit-text-stroke: 1px #33FF33;
+            }
             ul{
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust the minimum and maximum width as needed */
