@@ -13,10 +13,11 @@ const Resume = () => {
                     <div className="summary-box">
                         <p style={{ padding: "2em" }}>
                             <h3 style={{ fontFamily: 'Permanent Marker', marginRight: '1em', marginLeft: '1em' }}>Summary</h3>
-                            Navy Veteran with 3 years of software engineer experience, proficient in programming languages such as Java, Python, and JavaScript.
-                            Strong problem-solving skills, communication, and ability to collaborate with others has aided in successful completion of an intensive 14-week
-                            coding bootcamp. I have enjoyed the challenges, leadership, and critical thinking involved adapting with a team to accomplish projects.
-                            Highly motivated and eager to contribute my skills to a dynamic software development team.
+                            Navy veteran and software developer with a proven track record of leadership, discipline, and problem-solving. 
+                            Leveraging a diverse skillset attained through military service and education, brings a strong foundation in 
+                            technical expertise, analytical thinking, and troubleshooting capabilities. Experienced in maintaining complex 
+                            systems has guided me with the ability to approach tasks efficiently. Seeking to apply my talents to detail and 
+                            commitment to excellence in a successful environment.
                         </p>
                     </div>
 
@@ -44,11 +45,11 @@ const Resume = () => {
                         <p>A leading IT consulting firm specializing in optimization of complex end-to-end business process systems for multitude of business verticals including Financial, Digital Media, Healthcare, and Transportation industries.</p>
                         <h5>Software Engineer</h5>
                         <ul>
-                            <li>Maintained data structure processes as part of full stack implementations with OOP, SQLAlchemy, & Marshmallow.</li>
-                            <li>Iterated front-end design for user experience to function with Flask APIs, VueJS, & Node.</li>
-                            <li>Developed solutions for clients using Company and Python libraries, resulting in increased efficiency and client satisfaction.</li>
-                            <li>Worked along teammates to build optimal solutions to create multiple releases for company efficiency.</li>
-                            <li>Assisted in production support managing company and client’s software to maintain servers.</li>
+                            <li>Debugged errors and built optimal solutions to create multiple releases for company efficiency and consistency increasing production maintaining with Git version control. </li>
+                            <li>Integrated end-to-end user data designs with OOP, Python, SQLAlchemy</li>
+                            <li>Implemented front-end design for user experience to function with Flask APIs, VueJS, & Node.</li>
+                            <li>Worked along teammates coordindating with slack, zoom & git control to build optimal solutions creating multiple releases for company efficiency.</li>
+                            <li>Assisted in production support, managing client’s server utilizing Bash, Docker/Kubernetes & other Linux based shells.</li>
                         </ul>
 
                         <br />
