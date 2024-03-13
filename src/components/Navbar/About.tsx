@@ -15,6 +15,7 @@ import mongoLogo from '../../images/logos/mongoDB-logo.png'
 import postgresLogo from '../../images/logos/postgresql-logo.png'
 import mysqlLogo from '../../images/logos/mysql-logo.png'
 import githubLogo from '../../images/logos/github-logo.png'
+import nextLogo from '../../images/logos/Nextjs-Logo.png'
 import '../../styles/About.scss';
 
 
@@ -91,10 +92,13 @@ const About = () => {
                             <li>Node</li>
                             <img src={nodeJSLogo} alt="logo" style={{ width: "5em", marginTop: "7px" }} />
                         </div>
-
                         <div className='techStack-box' >
                             <li>Git Control</li>
                             <img src={githubLogo} alt="logo" style={{ width: "70px" }} />
+                        </div>
+                        <div className='techStack-box' >
+                            <li>NextJS</li>
+                            <img src={nextLogo} alt="logo" style={{ width: "70px"}} />
                         </div>
                     </ul>
 
