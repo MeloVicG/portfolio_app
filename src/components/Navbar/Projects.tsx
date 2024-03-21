@@ -5,11 +5,26 @@ import shooterprofile from '../../images/shooterprofile.png'
 import GBEI from '../../images/GDS.png'
 import github from '../../images/github.png'
 import hackerAlgo from '../../images/hackerhero_algo_track.png'
+import GearUp from '../../images/GearUpWebDev.png'
 
 const Projects = () => {
     return (
         <div>
             <div className='projects-container' style={{ padding: "3em" }}>
+                <h3>GearUp WebDev Solutions</h3>
+                <div className="projects-box">
+                    <img src={GearUp} alt="" style={{ borderRadius: "1.2vw" }} />
+                    <ul>
+                        <h5>Frontend application for freelance work. utiliizing the new Next.js 14, ReactEmail, and Resend</h5>
+                        <h6>Clients will be able to contact me for any services for web design and software</h6>
+                        <li>With create-react-app no longer in use. Updated my frontend knowledge with Next.js </li>
+                        <li>utilized new email API for developers, React Email and Resend.</li>
+                    </ul>
+                </div>
+                <br />
+                <br />
+                <br />
+                
                 <h3>GBEI Development Solutions</h3>
                 <div className="projects-box">
                     <img src={GBEI} alt="" style={{ borderRadius: "1.2vw" }} />
