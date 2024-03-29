@@ -67,6 +67,8 @@ const Projects = () => {
                         <h5>Created an Ecommerce website for fitness merchandise and products</h5>
                         <h6>Users can Learn about fitness and purchase merchandise </h6>
                         <li>Built to understand the necessary components needed in an Ecommerce website</li>
+                        <li>Used AI to generate images and understand prompts and how to use AI</li>
+                        <li>Added MUX video player because of NextJS video player challenges.(later removed for production purposes)</li>
                     </ul>
                 </div>
                 <br />
