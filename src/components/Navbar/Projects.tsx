@@ -6,6 +6,7 @@ import GBEI from '../../images/GDS.png'
 import github from '../../images/github.png'
 import hackerAlgo from '../../images/hackerhero_algo_track.png'
 import GearUp from '../../images/GearUpWebDev.png'
+import fistaxEcom from '../../images/fitstaxEcommerce.png'
 
 const Projects = () => {
     return (
@@ -59,6 +60,19 @@ const Projects = () => {
                 <br />
                 <br />
 
+                <h3>FitStax</h3>
+                <div className="projects-box">
+                    <img src={fistaxEcom} alt="" style={{ borderRadius: "1.2vw" }} />
+                    <ul>
+                        <h5>Created an Ecommerce website for fitness merchandise and products</h5>
+                        <h6>Users can Learn about fitness and purchase merchandise </h6>
+                        <li>Built to understand the necessary components needed in an Ecommerce website</li>
+                    </ul>
+                </div>
+                <br />
+                <br />
+                <br />
+                
                 <h3>StarWars Profile</h3>
                 <div className="projects-box">
                     <img src={starwars} alt="" style={{ borderRadius: "1.2vw" }} />
