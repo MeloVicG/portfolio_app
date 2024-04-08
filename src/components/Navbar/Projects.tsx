@@ -7,12 +7,31 @@ import github from '../../images/github.png'
 import hackerAlgo from '../../images/hackerhero_algo_track.png'
 import GearUp from '../../images/GearUpWebDev.png'
 import fistaxEcom from '../../images/fitstaxEcommerce.png'
+import RAG from '../../images/RAG_ai.png'
 
 const Projects = () => {
     return (
         <div>
+            <div className='algo-box'>
+                <h4>HackerHero Algo Completed</h4>
+                <img src={hackerAlgo} alt="logo" />
+            </div>
             <div className='projects-container' style={{ padding: "3em" }}>
-                
+
+                <h3>RAG AI</h3>
+                <div className="projects-box">
+                    <img src={RAG} alt="" style={{ borderRadius: "1.2vw" }} />
+                    <ul>
+                        <h5>Python AI Chatbox created to step into the realm of Artificial Intelligence and Machine Learning</h5>
+                        <h6>AI ChatBox that is integrated with private data</h6>
+                        <li>Utilizing Llama-index and Panda users will be able to use a Ai Chatbox to receive Query results and other specific information requests to the data.</li>
+                        <br />
+                        <br />
+                    </ul>
+                </div>
+                <br />
+                <br />
+                <br />
                 <h3>GBEI Development Solutions</h3>
                 <div className="projects-box">
                     <img src={GBEI} alt="" style={{ borderRadius: "1.2vw" }} />
@@ -74,7 +93,7 @@ const Projects = () => {
                 <br />
                 <br />
                 <br />
-                
+
                 <h3>StarWars Profile</h3>
                 <div className="projects-box">
                     <img src={starwars} alt="" style={{ borderRadius: "1.2vw" }} />
@@ -123,10 +142,11 @@ const Projects = () => {
                     </h4>
                 </div>
             </div>
-            <div className='algo-box'>
-                <h4>HackerHero Algo Completed</h4>
-                <img src={hackerAlgo} alt="logo" />
-            </div>
+
+
+
+
+
         </div>
     )
 }
