@@ -3,7 +3,6 @@ import sscProfile from '../../images/ssc_profile_pic.png'
 import spockhands from '../../images/spockhands.png'
 import jsLogo from '../../images/logos/JavaScript-logo.png'
 import tsLogo from '../../images/logos/Typescript_logo_2020.png'
-import awsLogo from '../../images/logos/aws-logo.png'
 import cssLogo from '../../images/logos/CSS3_logo.svg.png'
 import htmlLogo from '../../images/logos/html5.webp'
 import javaLogo from '../../images/logos/java-logo.png'
@@ -16,6 +15,7 @@ import postgresLogo from '../../images/logos/postgresql-logo.png'
 import mysqlLogo from '../../images/logos/mysql-logo.png'
 import githubLogo from '../../images/logos/github-logo.png'
 import nextLogo from '../../images/logos/Nextjs-Logo.png'
+import cSharp from '../../images/logos/CsharpLogo.jpg'
 import '../../styles/About.scss';
 
 
@@ -63,6 +63,10 @@ const About = () => {
                             <img src={javaLogo} alt="logo" />
                         </div>
                         <div className='techStack-box'>
+                            <li>C#</li>
+                            <img src={cSharp} alt="logo" style={{ width: "60px", marginTop: "12px" }} />
+                        </div>
+                        <div className='techStack-box'>
                             <li>Python</li>
                             <img src={pythonLogo} alt="logo" style={{ marginTop: "12px" }} />
                         </div>
@@ -84,10 +88,7 @@ const About = () => {
                             <li>VueJS</li>
                             <img src={vueJSLogo} alt="logo" style={{ marginTop: "10px" }} />
                         </div>
-                        <div className='techStack-box'>
-                            <li>AWS Cloud</li>
-                            <img src={awsLogo} alt="logo" style={{ width: "60px", marginTop: "12px" }} />
-                        </div>
+                        
                         <div className='techStack-box'>
                             <li>Node</li>
                             <img src={nodeJSLogo} alt="logo" style={{ width: "5em", marginTop: "7px" }} />
