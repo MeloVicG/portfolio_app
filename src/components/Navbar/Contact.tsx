@@ -33,7 +33,7 @@ return (
             <br />
             <br />
             <p>you can check out the rough version here</p>
-            <h6><a href="https://gbeidevelopmentsolutions.netlify.app/blueprints">G-BEI development Solutions</a></h6>
+            <h6><a href="https://gbeidevelopmentsolutions.netlify.app">G-BEI development Solutions</a></h6>
             <p style={{ fontFamily: 'Permanent Marker', fontSize: "2em" }}>you can reach me now at</p>
             <h3>victorGdeveloper@gmail.com</h3>
             <a href="https://www.linkedin.com/in/victor-gargurevich-103026155/" style={{ textDecoration: "none" }}><img src={linkedinlogo} alt="" style={{ height: "3em", width: "3em" }} /></a>
