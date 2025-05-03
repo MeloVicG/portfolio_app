@@ -8,6 +8,7 @@ import hackerAlgo from '../../images/hackerhero_algo_track.png'
 import GearUp from '../../images/GearUpWebDev.png'
 import fistaxEcom from '../../images/fitstaxEcommerce.png'
 import RAG from '../../images/RAG_ai.png'
+import ChatHub from '../../images/ChatHub.png'
 
 const Projects = () => {
     return (
@@ -17,8 +18,28 @@ const Projects = () => {
                 <img src={hackerAlgo} alt="logo" />
             </div>
             <div className='projects-container' style={{ padding: "3em" }}>
+                <h4>
+                    <p>
+                        🔥🔥🔥🔥
+                        <a href="https://github.com/MeloVicG" style={{ textDecoration: "none" }}><img src={github} alt="" style={{ height: "3em", width: "3em" }} /></a>
+                        🔥🔥🔥🔥
+                    </p>
+                    <br />
+                </h4>
 
-                <h3>RAG AI</h3>
+                <h3>KaraChat</h3>
+                <div className="projects-box">
+                    <img src={ChatHub} alt="" style={{ borderRadius: "1.2vw" }} />
+                    <ul>
+                        <br />
+                        <h5>ChatHub utilizing SignalR To Understand Websockets</h5>
+                        <br />
+                    </ul>
+                </div>
+                <br />
+                <br />
+                <br />
+                    <h3>RAG AI</h3>
                 <div className="projects-box">
                     <img src={RAG} alt="" style={{ borderRadius: "1.2vw" }} />
                     <ul>

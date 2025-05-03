@@ -16,6 +16,7 @@ import mysqlLogo from '../../images/logos/mysql-logo.png'
 import githubLogo from '../../images/logos/github-logo.png'
 import nextLogo from '../../images/logos/Nextjs-Logo.png'
 import cSharp from '../../images/logos/CsharpLogo.jpg'
+import awsLogo from '../../images/logos/aws-logo.png'
 import '../../styles/About.scss';
 
 
@@ -100,6 +101,10 @@ const About = () => {
                         <div className='techStack-box' >
                             <li>NextJS</li>
                             <img src={nextLogo} alt="logo" style={{ width: "70px"}} />
+                        </div>
+                        <div className='techStack-box' >
+                            <li><h6> AWS Cloud Practitoner</h6></li>
+                            <img src={awsLogo} alt="logo" style={{ width: "70px"}} />
                         </div>
                     </ul>
 
